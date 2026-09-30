@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260" role="img" aria-label="LUKAS &amp; CO">
+  <path d="M112 100 L122 70 L138 94 L150 62 L162 94 L178 70 L188 100 Z" fill="#f2efe8"/>
+  <rect x="112" y="104" width="76" height="6" fill="#f2efe8"/>
+  <text x="150" y="160" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="30" letter-spacing="10" font-weight="700" fill="#f2efe8">LUKAS</text>
+  <text x="150" y="188" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="14" letter-spacing="14" fill="#f2efe8">&amp; CO</text>
+</svg>
