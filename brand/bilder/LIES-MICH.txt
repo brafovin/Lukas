@@ -1,0 +1,4 @@
+Produktbilder der Website (Format 4:5, 800 x 1000 px):
+  tshirt.jpg, pullover.jpg, hose.jpg, jogginganzug.jpg, muetze.jpg
+Ersetze sie einfach durch bessere Bilder mit dem gleichen Dateinamen.
+Fehlt eine Datei, zeigt die Seite automatisch die Zeichnung.
