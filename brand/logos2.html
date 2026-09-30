@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LUKAS &amp; CO – Graffiti-Emblem</title>
+<style>
+  :root { --bg:#0d0b1e; --violet:#7a3cff; --lime:#c8ff2e; --fg:#f4f2ff; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--bg); color:var(--fg); font-family:"Helvetica Neue",Arial,sans-serif; padding:32px 20px 60px; }
+  h1 { text-align:center; font-size:24px; letter-spacing:.15em; }
+  p.sub { text-align:center; color:#9a97b8; margin:8px 0 28px; }
+  .grid { max-width:1000px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit,minmax(420px,1fr)); gap:18px; }
+  figure { background:#15122e; border:1px solid #2a2650; display:flex; flex-direction:column; }
+  .row { display:flex; align-items:center; }
+  .row svg { flex:1; min-width:0; }
+  figcaption { padding:10px 14px; font-size:12px; letter-spacing:.12em; text-transform:uppercase; background:#1d1940; color:#9a97b8; }
+  @media (max-width:520px){ .grid{grid-template-columns:1fr;} }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <!-- A: Sprüh-Krone -->
+  <symbol id="eA" viewBox="-70 -70 140 140">
+    <g transform="translate(4 4)" stroke="#7a3cff" fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-40 14 L-32 -26 L-14 -2 L0 -34 L14 -2 L32 -26 L40 14"/><path d="M-40 28 H40"/></g>
+    <g stroke="#c8ff2e" fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-40 14 L-32 -26 L-14 -2 L0 -34 L14 -2 L32 -26 L40 14"/><path d="M-40 28 H40"/></g>
+    <g stroke="#c8ff2e" stroke-width="5" stroke-linecap="round"><path d="M-26 36 V54"/><path d="M-6 36 V46"/><path d="M14 36 V62"/><path d="M32 36 V50"/></g>
+    <g fill="#c8ff2e"><circle cx="-26" cy="57" r="4"/><circle cx="-6" cy="49" r="3.500"/><circle cx="14" cy="65" r="4.500"/><circle cx="32" cy="53" r="3.500"/></g>
+  </symbol>
+  <!-- B: Block-L im Sprühkreis -->
+  <symbol id="eB" viewBox="-70 -70 140 140">
+    <circle r="58" fill="none" stroke="#c8ff2e" stroke-width="5" stroke-dasharray="1 8" stroke-linecap="round"/>
+    <circle r="50" fill="none" stroke="#7a3cff" stroke-width="3"/>
+    <path transform="translate(5 5)" d="M-20 -34 H6 V12 H30 V34 H-20 Z" fill="#7a3cff"/>
+    <path d="M-20 -34 H6 V12 H30 V34 H-20 Z" fill="#c8ff2e" stroke="#f4f2ff" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M-12 -26 V26" stroke="#f4f2ff" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+    <g stroke="#c8ff2e" stroke-width="5" stroke-linecap="round"><path d="M-10 38 V56"/><path d="M12 38 V48"/></g>
+    <g fill="#c8ff2e"><circle cx="-10" cy="59" r="4"/><circle cx="12" cy="51" r="3.500"/></g>
+  </symbol>
+  <!-- C: Throw-up LUKAS mit Krone -->
+  <symbol id="eC" viewBox="-70 -70 140 140">
+    <path d="M-16 -22 L-11 -42 L-4 -30 L0 -46 L4 -30 L11 -42 L16 -22 Z" fill="#c8ff2e" stroke="#7a3cff" stroke-width="3" stroke-linejoin="round"/>
+    <g transform="skewX(-12)" font-family="Impact,'Arial Black',sans-serif" font-size="34" text-anchor="middle" letter-spacing="1">
+      <text x="4" y="28" fill="#7a3cff">LUKAS</text>
+      <text x="0" y="24" fill="#c8ff2e" stroke="#f4f2ff" stroke-width="1.500">LUKAS</text></g>
+    <path d="M-52 40 Q0 50 52 36" stroke="#f4f2ff" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <g stroke="#c8ff2e" stroke-width="4" stroke-linecap="round"><path d="M-30 46 V58"/><path d="M20 44 V62"/></g>
+    <g fill="#c8ff2e"><circle cx="-30" cy="60" r="3.500"/><circle cx="20" cy="65" r="4"/></g>
+  </symbol>
+  <!-- D: Spraydose mit Krone -->
+  <symbol id="eD" viewBox="-70 -70 140 140">
+    <g fill="#c8ff2e"><circle cx="30" cy="-20" r="3"/><circle cx="38" cy="-30" r="2.500"/><circle cx="44" cy="-14" r="3.500"/><circle cx="52" cy="-26" r="2"/><circle cx="36" cy="-8" r="2"/><circle cx="56" cy="-8" r="2.500"/><circle cx="48" cy="-38" r="2"/></g>
+    <rect x="-22" y="-14" width="34" height="62" rx="6" fill="#f4f2ff" stroke="#7a3cff" stroke-width="3"/>
+    <rect x="-22" y="2" width="34" height="18" fill="#c8ff2e"/>
+    <path d="M-12 -14 V-26 H2 V-14" fill="#7a3cff"/><rect x="2" y="-34" width="12" height="8" rx="2" fill="#7a3cff"/>
+    <path d="M-15 32 L-11 22 L-7 28 L-5 20 L-1 28 L3 22 L7 32 Z" fill="#7a3cff"/>
+    <g stroke="#c8ff2e" stroke-width="4" stroke-linecap="round"><path d="M-14 54 V64"/><path d="M4 54 V60"/></g>
+  </symbol>
+  <!-- T-Shirt mit Brust-Emblem -->
+  <symbol id="shirt" viewBox="0 0 120 120"><path d="M30 20 L50 12 Q60 24 70 12 L90 20 L108 44 L92 54 L86 46 V112 H34 V46 L28 54 L12 44 Z" fill="#1d1940" stroke="#f4f2ff" stroke-width="2" stroke-linejoin="round"/></symbol>
+</defs></svg>
+
+<h1>LUKAS &amp; CO</h1>
+<p class="sub">Neue Richtung: kleines Graffiti-Emblem auf der Brust, dazu Violett und Neon-Limette. Links groß, rechts am Shirt.</p>
+<div class="grid">
+<figure><div class="row"><svg viewBox="0 0 140 140"><use href="#eA"/></svg><svg viewBox="0 0 120 120"><use href="#shirt"/><use href="#eA" x="70" y="30" width="22" height="22"/></svg></div><figcaption>A · Sprüh-Krone</figcaption></figure>
+<figure><div class="row"><svg viewBox="0 0 140 140"><use href="#eB"/></svg><svg viewBox="0 0 120 120"><use href="#shirt"/><use href="#eB" x="70" y="30" width="22" height="22"/></svg></div><figcaption>B · Block-L im Sprühkreis</figcaption></figure>
+<figure><div class="row"><svg viewBox="0 0 140 140"><use href="#eC"/></svg><svg viewBox="0 0 120 120"><use href="#shirt"/><use href="#eC" x="68" y="30" width="26" height="26"/></svg></div><figcaption>C · Throw-up LUKAS</figcaption></figure>
+<figure><div class="row"><svg viewBox="0 0 140 140"><use href="#eD"/></svg><svg viewBox="0 0 120 120"><use href="#shirt"/><use href="#eD" x="70" y="30" width="22" height="22"/></svg></div><figcaption>D · Spraydose mit Krone</figcaption></figure>
+</div>
+</body>
+</html>
