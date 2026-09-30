@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lukas&Co – Streetwear</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik+Spray+Paint&display=swap" rel="stylesheet">
+<style>
+  :root { --black:#0a0a0a; --white:#ffffff; --grey:#8a8a8a; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--black); color:var(--white); font-family:'Permanent Marker',cursive; line-height:1.4; }
+  .graffiti { font-family:'Rubik Spray Paint','Permanent Marker',cursive; }
+  header { min-height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:24px 16px; }
+  .logo { font-size:clamp(56px,16vw,200px); letter-spacing:.02em; line-height:1; transform:rotate(-4deg); }
+  .logo .amp { display:inline-block; transform:rotate(8deg) scale(.85); margin:0 .04em; }
+  .tag { margin-top:24px; font-size:clamp(16px,3vw,26px); color:var(--grey); }
+  .btn { margin-top:32px; display:inline-block; padding:14px 32px; border:3px solid var(--white); color:var(--white); text-decoration:none; font-size:20px; transition:.2s; }
+  .btn:hover { background:var(--white); color:var(--black); }
+  section { max-width:1100px; margin:0 auto; padding:64px 16px; }
+  h2 { font-size:clamp(32px,6vw,56px); margin-bottom:32px; transform:rotate(-1.5deg); }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:24px; }
+  .card { border:2px solid #222; padding:16px; text-align:center; }
+  .card svg { width:100%; height:auto; }
+  .card h3 { margin-top:12px; font-size:22px; }
+  .card p { color:var(--grey); font-size:18px; }
+  .palette { display:flex; gap:16px; flex-wrap:wrap; }
+  .sw { width:140px; height:140px; display:flex; align-items:flex-end; padding:10px; font-size:16px; border:2px solid #333; }
+  .sw.b { background:var(--black); }
+  .sw.w { background:var(--white); color:var(--black); }
+  footer { text-align:center; padding:48px 16px; color:var(--grey); border-top:2px solid #222; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo graffiti">Lukas<span class="amp">&amp;</span>Co</div>
+  <p class="tag">Streetwear. Schwarz. Laut.</p>
+  <a class="btn" href="#kollektion">Kollektion</a>
+</header>
+
+<section id="kollektion">
+  <h2 class="graffiti">Drop 01</h2>
+  <div class="grid">
+    <div class="card">
+      <svg viewBox="0 0 200 220" aria-label="T-Shirt">
+        <path d="M60 10 L10 45 L30 85 L50 75 L50 210 L150 210 L150 75 L170 85 L190 45 L140 10 Q100 35 60 10Z" fill="#111" stroke="#333" stroke-width="2"/>
+        <text x="100" y="125" text-anchor="middle" font-family="Rubik Spray Paint, Permanent Marker, cursive" font-size="24" fill="#fff">Lukas&amp;Co</text>
+      </svg>
+      <h3>Classic Tee</h3><p>Schwarz · Logo weiß</p>
+    </div>
+    <div class="card">
+      <svg viewBox="0 0 200 220" aria-label="Hoodie">
+        <path d="M65 10 Q100 40 135 10 L185 50 L170 100 L150 90 L150 210 L50 210 L50 90 L30 100 L15 50Z" fill="#111" stroke="#333" stroke-width="2"/>
+        <path d="M65 10 Q100 60 135 10" fill="none" stroke="#333" stroke-width="2"/>
+        <text x="100" y="140" text-anchor="middle" font-family="Rubik Spray Paint, Permanent Marker, cursive" font-size="24" fill="#fff">Lukas&amp;Co</text>
+      </svg>
+      <h3>Hoodie</h3><p>Schwarz · Logo weiß</p>
+    </div>
+    <div class="card">
+      <svg viewBox="0 0 200 220" aria-label="Cap">
+        <path d="M30 130 Q30 40 100 40 Q170 40 170 130Z" fill="#111" stroke="#333" stroke-width="2"/>
+        <path d="M20 130 Q100 110 190 145 Q100 150 20 130Z" fill="#111" stroke="#333" stroke-width="2"/>
+        <text x="100" y="105" text-anchor="middle" font-family="Rubik Spray Paint, Permanent Marker, cursive" font-size="18" fill="#fff">L&amp;Co</text>
+      </svg>
+      <h3>Cap</h3><p>Schwarz · Logo weiß</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="graffiti">Brand Guide</h2>
+  <div class="palette">
+    <div class="sw b">Schwarz #0A0A0A</div>
+    <div class="sw w">Weiß #FFFFFF</div>
+  </div>
+  <p style="margin-top:24px;font-size:20px">Schrift: <span class="graffiti">Rubik Spray Paint</span> (Logo) &amp; Permanent Marker (Text) – beide Graffiti-Stil.<br>
+  Regel: Textilien immer schwarz, Logo/Prints immer weiß.</p>
+</section>
+
+<footer>© Lukas&amp;Co</footer>
+
+</body>
+</html>
