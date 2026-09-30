@@ -1,0 +1,10 @@
+Hier kommen deine echten Produktfotos rein.
+Dateinamen genau so (Format JPG, Hochformat 4:5, z. B. 1200 x 1500 px):
+
+  tshirt.jpg
+  pullover.jpg
+  hose.jpg
+  jogginganzug.jpg
+  muetze.jpg
+
+Fehlt ein Foto, zeigt die Website automatisch die Zeichnung.
